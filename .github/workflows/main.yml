@@ -1,32 +1,22 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
-name: Generate Snake
+# GitHub Action: Generate Snake + Auto-update YouTube Section
+name: Generate Snake & YouTube Embed
 
-# Controls when the action will run.
 on:
   schedule:
-      # every 12 hours
-    - cron: "0 */12 * * *"
-
-  # This command allows us to run the Action automatically from the Actions tab.
+    - cron: "0 */12 * * *"  # Every 12 hours
   workflow_dispatch:
-  
-  # Also run on every push on the master branch
   push:
     branches:
-    - main
+      - main
 
-# The sequence of runs in this workflow:
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  snake:
+    name: Generate Snake
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Clone repo
         uses: actions/checkout@v3
-    
+
       - name: Generate the snake files in './dist/'
         uses: Platane/snk@v3
         id: snake-gif
@@ -37,7 +27,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show build status
         run: git status
@@ -48,5 +38,28 @@ jobs:
           target_branch: output
           build_dir: dist
           commit_message: Update snake animations
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  youtube:
+    name: Update Latest YouTube Video
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch latest YouTube video
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: 1
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=YOUR_CHANNEL_ID"
+          comment_tag_name: YOUTUBE
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "📺 Update latest YouTube video"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
