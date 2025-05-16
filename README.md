@@ -9,22 +9,33 @@
 ---
 
 ### 👨‍💻 About Me
-- 👋 I’m **Broken Playz**
-- 🌱 I'm a **beginner in coding**
-- ⚙️ I love learning about **Python**, **bots**, **automation**, and **Java**
-- 🎯 Always curious, always building
+- 👋 Hi! I’m <strong>Broken Playz</strong>
+- 🌱 Beginner coder passionate about Python, Java, bots, and automation
+- 🎯 Always curious, learning, and building projects to improve my skills
 
 ---
 
 ### 🔗 Connect with Me
 
 <p align="center">
-  <a href="https://www.youtube.com/@BrokenPlayz23" target="_blank"><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-  <a href="https://www.tiktok.com/@brokenplayz23_" target="_blank"><img src="https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white" /></a>
-  <a href="https://www.facebook.com/brokenplayz233/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-  <a href="https://discord.gg/fGxrRu6FCE" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="https://www.instagram.com/brokenplayz23/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="mailto:brokenplayzinfo@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.youtube.com/@BrokenPlayz23" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://www.tiktok.com/@brokenplayz23_" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
+  </a>
+  <a href="https://www.facebook.com/brokenplayz233/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://discord.gg/fGxrRu6FCE" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://www.instagram.com/brokenplayz23/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="mailto:brokenplayzinfo@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
 ---
@@ -35,23 +46,25 @@
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,github,vscode,discord,nodejs" />
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,nodejs,html,css,github,vscode,discord" alt="Tech Stack" />
 </p>
 
 ---
 
-### 🐍 Contribution Snake
+### 🐍 My GitHub Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/brokenplayz23/brokenplayz23/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <img src="https://raw.githubusercontent.com/brokenplayz23/brokenplayz23/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
 </p>
 
 ---
 
-### ☕ Support My Journey
+### ☕ Support My Learning Journey
 <p align="center">
-  <a href='https://ko-fi.com/V7V4RAK9C' target='_blank'>
-    <img height='45' style='border:0px;height:45px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Support me on Ko-fi' />
+  <a href="https://ko-fi.com/V7V4RAK9C" target="_blank" rel="noopener noreferrer">
+    <img height="45" src="https://storage.ko-fi.com/cdn/kofi5.png?v=3" alt="Support me on Ko-fi" />
   </a>
+  <br/>
+  If you like my work, feel free to buy me a coffee ☕ to support my coding journey!
 </p>
