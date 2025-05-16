@@ -51,7 +51,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: 1
-          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=YOUR_CHANNEL_ID"
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCHCxx7zXQbKEPSfssg7GV2Q"
           comment_tag_name: YOUTUBE
 
       - name: Commit changes
