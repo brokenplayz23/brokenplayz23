@@ -1,13 +1,15 @@
 <!-- Visitor Badge -->
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=brokenplayz23.brokenplayz23" />
 
-<!-- Header with Typing Animation -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=500&color=00F700&center=true&vCenter=true&width=600&height=70&lines=Hi+there+👋,+I'm+Broken+Playz!;A+Beginner+Coder+on+a+Big+Journey!;Learning+One+Line+at+a+Time+🚀" />
+<!-- Header with Typing Animation and Gaming + Coding Icons -->
+<h1 align="center" style="position: relative; display: inline-block; padding: 10px 20px; border-radius: 15px; background: rgba(0, 247, 0, 0.15); box-shadow: 0 0 20px 5px rgba(0, 247, 0, 0.3);">
+  <img src="https://img.icons8.com/ios-glyphs/30/00F700/controller.png" alt="Game Controller" style="vertical-align: middle; margin-right: 10px;" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=500&color=00F700&center=true&vCenter=true&width=600&height=70&lines=Hi+there+👋,+I'm+Broken+Playz!;A+Beginner+Coder+on+a+Big+Journey!;Learning+One+Line+at+a+Time+🚀" alt="Typing Animation" style="vertical-align: middle;" />
+  <img src="https://img.icons8.com/ios-glyphs/30/00F700/code-file.png" alt="Code File" style="vertical-align: middle; margin-left: 10px;" />
 </h1>
 
-<!-- Subtitle -->
-<h3 align="center">💻 Gamer turned Coder | Dreaming in Java & Python 🌌</h3>
+<!-- Updated Subtitle -->
+<h3 align="center">🎮 Gamer & Content Creator | Leveling Up Code and Creativity Every Day 🚀</h3>
 
 ---
 
